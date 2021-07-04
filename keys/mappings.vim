@@ -1,6 +1,4 @@
-nnoremap <Leader>a :bnext<CR>
-nnoremap <Leader>s :bprevious<CR>
-nnoremap <C-X> :bdelete<CR>
+nnoremap <Leader>x :bdelete<CR>
 nmap <Leader>b :buffers<CR>:buffer<Space>
 
 nmap <F7>   :TlistToggle<CR>
@@ -9,8 +7,8 @@ nmap <F9>   :Tabularize /
 nmap <F10>  :bp<bar>sp<bar>bn<bar>bd
 
 " Treat long lines as break lines (useful when moving around in them)
-"map j gj
-"map k gk
+noremap j gj
+noremap k gk
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>

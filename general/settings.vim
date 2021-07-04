@@ -1,5 +1,5 @@
 " set leader key
-let g:mapleader = "/<space>"
+let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 set ignorecase
