@@ -56,6 +56,7 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'lukas-reineke/indent-blankline.nvim'
 
 "Snippets
+Plug 'rafamadriz/friendly-snippets'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 
