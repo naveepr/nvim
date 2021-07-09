@@ -6,7 +6,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   "autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-"let g:ale_disable_lsp = 1
+let g:ale_disable_lsp = 1
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
