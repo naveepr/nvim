@@ -28,7 +28,7 @@ let g:go_fmt_command = "goimports"
 "let g:go_fmt_autosave = 1
 
 " Set neosnippet as snippet engine
-let g:go_snippet_engine = "neosnippet"
+let g:go_snippet_engine = "vsnip"
 
 " Enable syntax highlighting per default
 let g:go_highlight_types = 1
