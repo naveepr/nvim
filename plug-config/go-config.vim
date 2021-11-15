@@ -25,7 +25,7 @@ let g:go_def_mapping_enabled = 0
 
 " Run goimports when running gofmt
 let g:go_fmt_command = "goimports"
-"let g:go_fmt_autosave = 1
+let g:go_fmt_autosave = 1
 
 " Set neosnippet as snippet engine
 let g:go_snippet_engine = "vsnip"
