@@ -35,7 +35,8 @@ Plug 'unblevable/quick-scope'
 "Language server and auto complete
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
-Plug 'anott03/nvim-lspinstall'
+"Plug 'anott03/nvim-lspinstall'
+Plug 'williamboman/nvim-lsp-installer'
 
 "Theme and colorscheme
 Plug 'vim-airline/vim-airline'

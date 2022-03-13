@@ -6,7 +6,8 @@ source $HOME/.config/nvim/general/paths.vim
 "lua-config
 luafile $HOME/.config/nvim/lua/plugins/lsp-config.lua
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
-"luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
+luafile $HOME/.config/nvim/lua/plugins/nvim-lsp-installer.lua
+" luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
 
 "plug-config
 source $HOME/.config/nvim/plug-config/airline.vim
