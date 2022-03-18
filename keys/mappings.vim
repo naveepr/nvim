@@ -1,6 +1,7 @@
 nnoremap <Leader>x :bdelete<CR>
 nmap <Leader>b :buffers<CR>:buffer<Space>
 
+nmap <F6>   :%s/\s\+$//e<CR>
 nmap <F7>   :TlistToggle<CR>
 nmap <F8>   :NERDTreeToggle<CR>
 nmap <F9>   :Tabularize /
@@ -31,8 +32,9 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
+nnoremap <C-w> :wq!<CR>
 " Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
+nnoremap <C-Q> :q!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
@@ -43,9 +45,9 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Better window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>h
+nnoremap <C-k> <C-w>j
+nnoremap <C-i> <C-w>k
 nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da

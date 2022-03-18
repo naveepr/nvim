@@ -17,7 +17,7 @@ Plug 'geoffharcourt/vim-matchit'
 Plug 'godlygeek/tabular'
 Plug 'vim-scripts/DoxygenToolkit.vim'
 "Plug 'nfvs/vim-perforce'
-"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
 "Plug 'sebdah/vim-delve'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
@@ -66,10 +66,12 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Telescope
-Plug 'nvim-lua/popup.nvim'
+" Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-lua/telescope.nvim'
-Plug 'jremmen/vim-ripgrep'
+Plug 'nvim-telescope/telescope.nvim'
+" Plug 'BurntSushi/ripgrep'
+" Plug 'sharkdp/fd'
+" Plug 'jremmen/vim-ripgrep'
 
 " Markdown plugin
 Plug 'iamcco/markdown-preview.nvim'
