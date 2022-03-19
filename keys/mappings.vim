@@ -1,21 +1,18 @@
-nnoremap <Leader>x :bdelete<CR>
-nmap <Leader>b :buffers<CR>:buffer<Space>
-
-nmap <F6>   :%s/\s\+$//e<CR>
-nmap <F7>   :TlistToggle<CR>
-nmap <F8>   :NERDTreeToggle<CR>
+nmap <F7>   :TlistToggle<cr>
+nmap <F8>   :NERDTreeToggle<cr>
 nmap <F9>   :Tabularize /
-nmap <F10>  :bp<bar>sp<bar>bn<bar>bd
+nmap <F10>  :%s/\s\+$//e<cr>
+nmap <F11>  :%s/foo/bar/gcI
 
 " Treat long lines as break lines (useful when moving around in them)
 noremap j gj
 noremap k gk
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <M-j>    :resize -2<cr>
+nnoremap <M-k>    :resize +2<cr>
+nnoremap <M-h>    :vertical resize -2<cr>
+nnoremap <M-l>    :vertical resize +2<cr>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -26,14 +23,15 @@ inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
+nnoremap <TAB> :bnext<cr>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+nnoremap <S-TAB> :bprevious<cr>
+nnoremap <Leader>x :bdelete<cr>
 
 " Alternate way to save
-nnoremap <C-s> :w<CR>
+nnoremap <C-s> :w<cr>
 " Alternate way to quit
-nnoremap <C-Q> :q!<CR>
+nnoremap <C-Q> :q!<cr>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.

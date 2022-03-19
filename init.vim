@@ -3,13 +3,13 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/general/paths.vim
 
-"lua-config
+" lua-config
 luafile $HOME/.config/nvim/lua/plugins/lsp-config.lua
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/plugins/nvim-lsp-installer.lua
-" luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
+"luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
 
-"plug-config
+" plug-config
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/SimpylFold.vim
 source $HOME/.config/nvim/plug-config/taglist.vim

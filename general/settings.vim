@@ -55,7 +55,7 @@ set history=50      " keep 50 lines of command line history
 " Be smart when using tabs ;)
 set smarttab
 " Use spaces instead of tabs
-set tabstop=4                           " Insert 4 spaces for a tab
+" set tabstop=4                           " Insert 4 spaces for a tab
 set expandtab                           " Converts tabs to spaces
 set shiftwidth=4                        " Change the number of space characters inserted for indentation
 set softtabstop=4                        
