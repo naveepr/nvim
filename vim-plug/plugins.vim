@@ -66,9 +66,10 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Telescope
-" Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-github.nvim'
 " Plug 'BurntSushi/ripgrep'
 " Plug 'sharkdp/fd'
 " Plug 'jremmen/vim-ripgrep'
