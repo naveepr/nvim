@@ -64,7 +64,7 @@ set listchars=tab:>-
 set tw=78
   
 "set t_Co=256
-set background=light
+set background=dark
 if (has("termguicolors"))
     set termguicolors
 endif

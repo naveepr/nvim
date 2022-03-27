@@ -1,8 +1,7 @@
 nmap <F7>   :TlistToggle<cr>
-nmap <F8>   :NERDTreeToggle<cr>
-nmap <F9>   :Tabularize /
-nmap <F10>  :%s/\s\+$//e<cr>
-nmap <F11>  :%s/foo/bar/gcI
+nmap <F8>   :Tabularize /
+nmap <F9>   :%s/\s\+$//e<cr>
+nmap <F10>  :%s/foo/bar/gcI
 
 " Treat long lines as break lines (useful when moving around in them)
 noremap j gj
