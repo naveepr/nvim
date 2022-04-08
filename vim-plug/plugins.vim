@@ -45,6 +45,7 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'kristijanhusak/vim-hybrid-material'
 "Plug 'sainnhe/gruvbox-material'
 Plug 'morhetz/gruvbox'
+Plug 'EdenEast/nightfox.nvim'
 
 "Syntax highlight
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
