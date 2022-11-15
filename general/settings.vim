@@ -34,6 +34,7 @@ set cursorline                          " Enable highlighting of the current lin
 set number
 "set relativenumber
 set ruler
+set colorcolumn=76
 set bs=indent,eol,start                 " allow backspacing over everything in insert mode
 set autoindent                          " Good auto indent
 set smartindent                         " Makes indenting smart
