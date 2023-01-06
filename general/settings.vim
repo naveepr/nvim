@@ -77,7 +77,7 @@ endif
 " To use transparent background
 "let g:hybrid_transparent_background = 1
 "colorscheme hybrid_reverse
-" colorscheme gruvbox
+"colorscheme gruvbox
 colorscheme nightfox
 
 " Only do this part when compiled with support for autocommands

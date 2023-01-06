@@ -3,11 +3,8 @@ local lsp_installer = require("nvim-lsp-installer")
 local lsp_installer_servers = require('nvim-lsp-installer.servers')
 
 local servers = {
-    "rust_analyzer",
-    "clangd",
+    "ccls",
     "pyright",
-    "tsserver",
-    "sumneko_lua",
 }
 
 for _, server_name in pairs(servers) do

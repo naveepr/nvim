@@ -13,11 +13,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'vim-scripts/taglist.vim'
-Plug 'geoffharcourt/vim-matchit'
+"Plug 'geoffharcourt/vim-matchit'
 Plug 'godlygeek/tabular'
 Plug 'vim-scripts/DoxygenToolkit.vim'
 "Plug 'nfvs/vim-perforce'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
+"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
 "Plug 'sebdah/vim-delve'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
