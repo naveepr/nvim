@@ -13,7 +13,9 @@
 
   local servers = {
       "ccls",
-      "pyright"
+      "pyright",
+      "bashls",
+      "sumneko_lua",
   }
 
   for _, server_name in pairs(servers) do

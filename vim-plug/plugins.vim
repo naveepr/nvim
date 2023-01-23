@@ -19,7 +19,7 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 "Plug 'nfvs/vim-perforce'
 "Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " Go support
 "Plug 'sebdah/vim-delve'
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
 
 "Git plugins
@@ -33,10 +33,17 @@ Plug 'justinmk/vim-sneak'
 Plug 'unblevable/quick-scope'
 
 "Language server and auto complete
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/nvim-compe'
-"Plug 'anott03/nvim-lspinstall'
+" Plug 'williamboman/mason.nvim'
+" Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+" Plug 'hrsh7th/nvim-compe'
+Plug 'jose-elias-alvarez/null-ls.nvim'
 
 "Theme and colorscheme
 Plug 'vim-airline/vim-airline'
