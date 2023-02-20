@@ -52,7 +52,8 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'flazz/vim-colorschemes'
 "Plug 'kristijanhusak/vim-hybrid-material'
 "Plug 'sainnhe/gruvbox-material'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'ellisonleao/gruvbox.nvim'
 Plug 'EdenEast/nightfox.nvim'
 
 "Syntax highlight
