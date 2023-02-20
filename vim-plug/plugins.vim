@@ -23,10 +23,11 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 Plug 'tpope/vim-commentary'
 
 "Git plugins
-Plug 'mhinz/vim-signify'
+" Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
+" Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
+Plug 'lewis6991/gitsigns.nvim'
 
 "search and motion plugin
 Plug 'justinmk/vim-sneak'
@@ -66,8 +67,9 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 
 "Snippets
 Plug 'rafamadriz/friendly-snippets'
+Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
-Plug 'hrsh7th/vim-vsnip-integ'
+" Plug 'hrsh7th/vim-vsnip-integ'
 
 "File Explorer
 "Plug 'preservim/nerdtree'

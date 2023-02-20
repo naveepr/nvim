@@ -12,6 +12,7 @@ luafile $HOME/.config/nvim/lua/plugins/completion.lua
 luafile $HOME/.config/nvim/lua/plugins/null-ls.lua
 luafile $HOME/.config/nvim/lua/plugins/nvim-tree.lua
 luafile $HOME/.config/nvim/lua/plugins/nvim-web-devicons.lua
+luafile $HOME/.config/nvim/lua/plugins/gitsigns.lua
 
 " plug-config
 source $HOME/.config/nvim/plug-config/airline.vim
@@ -26,7 +27,7 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/vsnip.vim
 source $HOME/.config/nvim/plug-config/treesitter.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
-source $HOME/.config/nvim/plug-config/signify.vim
+" source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 "source $HOME/.config/nvim/plug-config/go-config.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
