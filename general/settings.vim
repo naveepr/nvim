@@ -77,7 +77,7 @@ endif
 " To use transparent background
 "let g:hybrid_transparent_background = 1
 "colorscheme hybrid_reverse
-colorscheme gruvbox
+
 " colorscheme nightfox
 
 " Only do this part when compiled with support for autocommands
@@ -89,7 +89,11 @@ if has("autocmd")
   \ if line("'\"") > 0 && line ("'\"") <= line("$") |
   \   exe "normal! g'\"" |
   \ endif
+  autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+  " autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 endif
+
+colorscheme gruvbox
 
 if has("cscope") && filereadable("/usr/bin/cscope")
    set csprg=/usr/bin/cscope

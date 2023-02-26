@@ -49,4 +49,5 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
-
+nnoremap <Leader>wn :match ExtraWhitespace /\s\+$\<Bar> \+\ze\t/<CR>
+nnoremap <Leader>wf :match<CR>
