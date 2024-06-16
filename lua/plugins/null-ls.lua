@@ -5,9 +5,8 @@ local formatting = null_ls.builtins.formatting
 
 local sources = {
     --[[ formatting ]]
-    formatting.autopep8, formatting.clang_format, formatting.prettier,
-    formatting.lua_format
-
+    formatting.autopep8, formatting.prettier, formatting.lua_format
+    -- formatting.clang_format
     --[[ code actions ]]
 }
 

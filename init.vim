@@ -1,6 +1,6 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
-" luafile $HOME/.config/nvim/lua/plugins/nightfox.lua
-luafile $HOME/.config/nvim/lua/plugins/gruvbox.lua
+luafile $HOME/.config/nvim/lua/plugins/nightfox.lua
+"luafile $HOME/.config/nvim/lua/plugins/gruvbox.lua
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/general/paths.vim

@@ -8,8 +8,8 @@ let g:sneak#s_next = 1
 
 
 " remap for vim substitute
-nmap <leader>s <Plug>Sneak_s
-nmap <leader>S <Plug>Sneak_S
+map <leader>s <Plug>Sneak_s
+map <leader>S <Plug>Sneak_S
 
 " remap so I can use , and ; with f and t
 nmap ] <Plug>Sneak_,
