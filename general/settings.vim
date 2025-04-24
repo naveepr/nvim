@@ -1,5 +1,6 @@
 " set leader key
 let g:mapleader = "\<Space>"
+let g:maplocalleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 set ignorecase
@@ -32,7 +33,7 @@ set mouse=a                            " Enable your mouse
 set title
 set cursorline                          " Enable highlighting of the current line
 set number
-"set relativenumber
+set relativenumber
 set ruler
 set colorcolumn=80
 set bs=indent,eol,start                 " allow backspacing over everything in insert mode
@@ -95,7 +96,7 @@ if has("autocmd")
   " autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 endif
 
-"colorscheme gruvbox
+" colorscheme gruvbox
 
 " if has("cscope") && filereadable("/usr/bin/cscope")
 "    set csprg=/usr/bin/cscope

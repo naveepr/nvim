@@ -21,6 +21,9 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 "Plug 'sebdah/vim-delve'
 " Plug 'dense-analysis/ale'
 Plug 'tpope/vim-commentary'
+Plug 'folke/todo-comments.nvim'
+Plug 'folke/ts-comments.nvim'
+" Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 
 "Git plugins
 " Plug 'mhinz/vim-signify'
@@ -30,8 +33,10 @@ Plug 'junegunn/gv.vim'
 Plug 'lewis6991/gitsigns.nvim'
 
 "search and motion plugin
-Plug 'justinmk/vim-sneak'
-Plug 'unblevable/quick-scope'
+" Plug 'justinmk/vim-sneak'
+" Plug 'unblevable/quick-scope'
+Plug 'folke/flash.nvim'
+Plug 'MagicDuck/grug-far.nvim'
 
 "Language server and auto complete
 " Plug 'williamboman/mason.nvim'
@@ -49,6 +54,8 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 "Theme and colorscheme
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
+
 "Plug 'flazz/vim-colorschemes'
 "Plug 'kristijanhusak/vim-hybrid-material'
 "Plug 'sainnhe/gruvbox-material'
@@ -65,6 +72,9 @@ Plug 'tmhedberg/SimpylFold'
 "Indent line
 "Plug 'Yggdroot/indentLine'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'HiPhish/rainbow-delimiters.nvim'
+" Plug 'folke/snacks.nvim'
+" Plug 'folke/which-key.nvim'
 
 "Snippets
 Plug 'rafamadriz/friendly-snippets'

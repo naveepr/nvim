@@ -66,7 +66,7 @@ local lsp_flags = {
     -- This is the default in Nvim 0.7+
     debounce_text_changes = 150
 }
-local servers = {'pyright', 'bashls', 'sumneko_lua'}
+local servers = {'pyright', 'bashls', 'lua_ls'}
 for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup {
         on_attach = on_attach,
